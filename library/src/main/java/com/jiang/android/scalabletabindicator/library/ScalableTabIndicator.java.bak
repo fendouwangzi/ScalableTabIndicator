@@ -175,7 +175,7 @@ public class ScalableTabIndicator extends RelativeLayout implements ViewPager.On
 
     private void scrollTo(int position) {
         int totalWidth = 0;
-        for (int i = 0; i < position -1; i++) {
+        for (int i = 0; i < position; i++) {
             int width = 0;
             if (scrollable) {
                 width = tabs.get(i).getView().getMeasuredWidth();
